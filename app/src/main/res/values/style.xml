@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize color theme here. -->
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimary">#842DCE</item>
+        <item name="colorPrimaryVariant">#E6E6FA</item>
+        <item name="colorPrimaryDark">#090618</item>
+        <item name="colorSecondaryVariant">#CBC9CE</item>
+
+    </style>
+
+</resources>

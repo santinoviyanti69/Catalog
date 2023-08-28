@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="DarkViolet">#842DCE</color>
+    <color name="LightGrayishBlue">#E6E6FA</color>
+    <color name="VeryDark">#090618</color>
+    <color name="GrayishViolet">#CBC9CE</color>
+    <color name="md_theme_light_primary">#AE2F34</color>
+    <color name="grey_500">#B9BABA</color>
+
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/SCREEN"
+    android:layout_height="match_parent"
+    tools:context="com.belajar.anew.ui.profile.ProfileActivity">
+
+    <TextView
+        android:id="@+id/Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/Profile"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        style="@style/TEXT"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Profilepf"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="60dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/Profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_account_circle_24"
+            android:contentDescription="@string/Silahkanisidataanda" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Emailprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp"
+        android:text="@string/Email"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Profilepf"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Emailpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp"
+        android:text="@string/Email"
+        android:textStyle="bold"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Emailprov"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Namaprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp"
+        android:text="@string/Nama"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Emailpf"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Namapf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp"
+        android:text="@string/Nama"
+        android:textStyle="bold"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Namaprov"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/Usiaprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp"
+        android:text="@string/Usia"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Namapf"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Usiapf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp"
+        android:text="@string/Usia"
+        android:textStyle="bold"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Usiaprov"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/Alamatprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp"
+        android:text="@string/Alamat"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Usiapf"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Alamatpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp"
+        android:text="@string/Alamat"
+        android:textStyle="bold"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Alamatprov"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/Pendidikanprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp"
+        android:text="@string/Pendidikanterakhir"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Alamatpf"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/Pendidikanpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="16sp"
+        android:text="@string/Pendidikanterakhir"
+        android:textStyle="bold"
+        style="@style/TEXT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/Pendidikanprov"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnEdit"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toBottomOf="@id/Pendidikanpf" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

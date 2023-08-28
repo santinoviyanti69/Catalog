@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">My Catalog</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Profile">Profile</string>
+    <string name="Form">Form</string>
+    <string name="Silahkanisidataanda">Silakan isi data Anda!</string>
+    <string name="Nama">Nama</string>
+    <string name="Usia">Usia</string>
+    <string name="Anakkeberapa">Anak Ke Berapa</string>
+    <string name="Pendidikanterakhir">Pendidikan Terakhir</string>
+    <string name="Alamat">Alamat</string>
+    <string name="Submit">Kirim</string>
+
+    <string name="profile">profile</string>
+    <string name="logout">logout</string>
+    <string name="form">Edit Profile</string>
+    <string name="nama">Nama</string>
+    <string name="usia">Usia</string>
+    <string name="alamat">Alamat</string>
+    <string name="pendidikan">Pendidikan</string>
+    <string name="btnsv">SAVE</string>
+    <string name="btnEdit">EDIT</string>
+
+    <string name="photo">foto</string>
+    <string name="image">image</string>
+    <string name="buttonpicture">picture</string>
+    <string name="pilih_gambar">PILIH GAMBAR</string>
+    <string name="button_favorite">tombol untuk menambahkan produk ke favorit</string>
+    <string name="menu_favorite">menu favorite</string>
+
+    <string name="wishlist">FAVORITE</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="userprofile">PROFILE</string>
+    <string name="detailproduct">DETAIL PRODUCT</string>
+
+
+
+
+    <!--    <plurals name="Anakkeberapa">-->
+<!--        <item quantity="one">%d item </item>-->
+<!--        <item quantity="other">%d items </item>-->
+<!--    </plurals>-->
+
+
+<!--    <string name="List">-->
+<!--        <item>SD(sederajat)</item>-->
+<!--        <item>SMP(sederajat)</item>-->
+<!--        <item>SMK(sederajat)</item>-->
+<!--        <item>D1</item>-->
+<!--        <item>D2</item>-->
+<!--        <item>D3</item>-->
+<!--        <item>S1</item>-->
+<!--        <item>S2</item>-->
+<!--        <item>S3</item>-->
+<!--    </string>-->
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Catalog</string>
+    <string name="Login">Masuk</string>
+    <string name="Email">Email</string>
+    <string name="Password">Kata Sandi</string>
+    <string name="Profile">Profil</string>
+    <string name="Form">Formulir</string>
+    <string name="Silahkanisidataanda">Silakan isi data Anda!</string>
+    <string name="Nama">Nama</string>
+    <string name="Usia">Usia</string>
+    <string name="Anakkeberapa">Anak ke Berapa</string>
+    <string name="Pendidikanterakhir">Pendidikan Terakhir</string>
+    <string name="Alamat">Alamat</string>
+    <string name="Submit">Kirim</string>
+</resources>
