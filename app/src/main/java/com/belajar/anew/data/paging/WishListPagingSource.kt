@@ -10,6 +10,7 @@ import com.belajar.anew.data.mapper.toModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
+// class wishList paging source
 class WishListPagingSource(private val productDao:ProductDao
 ): PagingSource<Int, Product>() {
     override fun getRefreshKey(state: PagingState<Int, Product>): Int? {
